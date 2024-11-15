@@ -34,3 +34,5 @@ Thumbs.db
 */migrations/*.pyo
 */migrations/*.py[cod]
 */migrations/__pycache__/
+
+/
