@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="{% static 'css/coffee_app/login.css' %}">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login </h2>
+
+        
+
+        <form action="{% url 'login' %}" method="post">
+            {% csrf_token %}
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+            <span id="username-error" class="error-message"></span>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" >
+            <span id="password-error" class="error-message"></span>
+            <button type="submit">Login </button>
+        </form>
+
+        <p class="mb-2" style="font-size: 18px; color: #555;">Don't have an account?</p>
+								<a href="{% url 'register' %}" class="btn btn-primary btn-sm rounded-pill" style="border-width: 2px;">
+									<i class="" style="margin-right: 8px;"></i> Signup
+								</a>
+        
+            <!-- Message block to display error messages -->
+            {% if messages %}
+            <div class="message-container">
+                {% for message in messages %}
+                    <div class="error-message">{{ message }}</div>
+                {% endfor %}
+            </div>
+        {% endif %}
+        {% comment %} <div class="button-container">
+            
+            <a href="{% url 'Welcome_page' %}" class="btn">back to home</a>
+        </div> {% endcomment %}
+    </div>
+    <!-- Link to the external JavaScript file -->
+    {% comment %} <script src="{% static 'js/user_js/login.js' %}"></script>  {% endcomment %}
+</body>
+</html>

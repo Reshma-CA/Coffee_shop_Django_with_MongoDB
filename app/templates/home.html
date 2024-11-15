@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+    <h2 style="text-align: center; padding: 8px; color:purple;"> Hi {{person_name}}, Welcome to the coffee world</h2>
+
+
+
+<div class="row">
+
+    {% for item in coffee %}
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="{{ item.image.url }}" class="card-img-top" alt="..." style="height: 200px; width: 100%; object-fit: cover;">
+              <div class="card-body">
+              <h5 class="card-title">{{ item.name }}</h5>
+              <p class="card-text">${{item.price }}</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        {% endfor %}
+
+{% endblock %}

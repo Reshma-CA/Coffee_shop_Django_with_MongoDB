@@ -1,0 +1,36 @@
+# Environments
+/venv
+/env
+/.env
+/.env.*
+/.myvenv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.eggs/
+
+
+# Logs
+*.log
+*.out
+*.err
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# Migrations
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.py[cod]
+*/migrations/__pycache__/
