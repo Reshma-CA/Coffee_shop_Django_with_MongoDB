@@ -99,6 +99,9 @@ python manage.py runserver
 
 ```
 
+## Note
+The MongoDB atlas's network access should change to **0.0.0.0/0**. This can handle every IP address connection to proceed otherwise, a connection error occurs.
+
 ![WhatsApp Image 2024-11-18 at 12 25 34_4498cc5a](https://github.com/user-attachments/assets/dd83abe8-5c86-41c1-ba9f-aa3c11ee35a5)
 
 ![WhatsApp Image 2024-11-18 at 12 25 57_8d60fdb3](https://github.com/user-attachments/assets/759c94e7-d81f-4d56-942b-9ab9fd72406d)
