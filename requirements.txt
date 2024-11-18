@@ -1,0 +1,10 @@
+asgiref==3.8.1
+Django==3.2.23
+djongo==1.3.6
+dnspython==2.3.0
+pillow==11.0.0
+pymongo==3.12.3
+pytz==2024.2
+sqlparse==0.2.4
+typing-extensions==4.12.2
+tzdata==2024.2
