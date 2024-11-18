@@ -99,6 +99,9 @@ python manage.py runserver
 
 ```
 
+![WhatsApp Image 2024-11-18 at 12 25 34_4498cc5a](https://github.com/user-attachments/assets/dd83abe8-5c86-41c1-ba9f-aa3c11ee35a5)
+
+
 
 
 Project Demo : https://youtu.be/aev6UgPIDyE
