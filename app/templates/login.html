@@ -18,7 +18,7 @@
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" >
-            <span id="username-error" class="error-message"></span>
+            <span id="email-error" class="error-message"></span>
 
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" >
@@ -39,12 +39,12 @@
                 {% endfor %}
             </div>
         {% endif %}
-        {% comment %} <div class="button-container">
+       <div class="button-container">
             
-            <a href="{% url 'Welcome_page' %}" class="btn">back to home</a>
-        </div> {% endcomment %}
+            <a href="{% url 'welcome' %}" class="btn">back to home</a>
+        </div> 
     </div>
     <!-- Link to the external JavaScript file -->
-    {% comment %} <script src="{% static 'js/user_js/login.js' %}"></script>  {% endcomment %}
+   <script src="{% static 'js/login.js ' %}"></script>
 </body>
 </html>
