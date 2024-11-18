@@ -3,7 +3,7 @@
 
 This project is a full-stack Coffee Shop Management System built using Django as the backend framework and MongoDB as the database. The system handles multiple functionalities, including user authentication, a list of different kinds of coffee, and an interactive user interface.
 
-Key Features:
+**Key Features:**
 
 
 1, User Registration and Login (with password hashing).
@@ -12,7 +12,7 @@ Key Features:
 
 3, List of different Coffee
 
-Technologies Used:
+**Technologies Used:**
 
 
 Backend: Django Framework.
