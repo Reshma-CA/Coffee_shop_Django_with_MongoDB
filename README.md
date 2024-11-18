@@ -7,14 +7,18 @@ Key Features:
 
 
 1, User Registration and Login (with password hashing).
+
 2, Role-based access (Admin and Customer).
+
 3, List of different Coffee
 
 Technologies Used:
 
 
 Backend: Django Framework.
+
 Database: MongoDB.
+
 Frontend: HTML, CSS, Bootstrap.
 
 ##  1,Set Up a Virtual Environment
