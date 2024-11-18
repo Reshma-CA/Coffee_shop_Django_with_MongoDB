@@ -107,10 +107,9 @@ python manage.py runserver
 
 ![WhatsApp Image 2024-11-18 at 12 27 29_0d77ff20](https://github.com/user-attachments/assets/84aaf7d9-91af-4005-8c20-5ac75add17af)
 
+##  4 ,Connection with MongoDB
 
 ![WhatsApp Image 2024-11-18 at 12 29 14_96bad4e1](https://github.com/user-attachments/assets/0e027071-888a-4a4e-9d79-7d5d9c585727)
 
-
-##  4 ,Connection with MongoDB
 
 Project Demo : https://youtu.be/aev6UgPIDyE
