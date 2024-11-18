@@ -37,15 +37,18 @@ venv\Scripts\activate     # For Windows
 
 
 ```bash
+
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'coffee_shop_db',
         'CLIENT': {
-            'host': '<your-mongodb-connection-string>',
-            'username': '<your-username>',
-            'password': '<your-password>',
-        }
+            'host': '<your-mongodb-connection-string>', # Replace with your MongoDB server address
+            'port': 27017,               # Replace with your MongoDB port if different
+            'username': '<your-username>', # Replace with your MongoDB username (optional)
+            'password': '<your-password>', # Replace with your MongoDB password (optional)
+            'authSource': 'admin', # Replace with your MongoDB authentication database (optional)
+        },
+        'NAME': '<your-Databasename>',
     }
 }
 
